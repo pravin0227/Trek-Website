@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Booking Report</title>    
+</head>
+<style>
+    .blinking{
+	animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #000;	}
+	49%{	color: transparent;	}
+	50%{	color: transparent;	}
+	99%{	color:transparent;	}
+	100%{	color: #000;	}
+}
+.blinking h2
+    {
+        font-style:'Montserrat',sans-serif;
+        font-size: 60px;
+        margin-top: 70px;
+        letter-spacing: 5px;
+    }
+.button
+    {
+        font-family: 'Open Sans',sans-serif;
+        font-size: 30px;
+        border: 1px solid black;
+        margin-left: 0px;
+        padding: 5px 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+#modalcontent
+    {
+        text-align: left;
+    }
+    
+</style>
+<body>
+    <center>
+    <span class="blinking"><h2>Booking Report</h2></span>
+<!--
+<div class="button">
+<input type="button" value="Review Booking Details">    
+</div>
+-->
+<div id="modalcontent">
+<table>
+<tr>
+<th align="left">First Name            :Pravin</th>
+<td><script>document.getElementById('FirstName')</script></td>
+ </tr>
+<tr>
+<th align="left">Last Name            :More </th>
+<td></td>
+</tr>
+<tr>
+<th align="left">Email            :pravinmore0227@gmail.com</th>
+<td></td>
+</tr>
+<tr>
+<th align="left">Contact Number          :8828651418</th>
+<td>D</td>
+</tr>
+<tr>
+<th align="left">Tour package name            :Lohagad</th>
+<td></td>
+</tr>
+<tr>
+<th align="left">Tour package            :700rs</th>
+<td></td>
+</tr>
+<tr>
+<th align="left"></th>
+<td></td>
+</tr>
+<tr>
+<th align="left"></th>
+<td></td>
+</tr>
+<tr>
+<th align="left"></th>
+<td></td>
+</tr>
+</table>
+<!--<a href="Reservation1.html"><input type="button" class="cbutton2" value="Ok"></a>-->
+<button class="cbutton2"><a href="index.html">OK</a></button>
+</div>
+     </center>
+</body>
+</html>

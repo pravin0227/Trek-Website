@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Payment Successful</title> 
+
+</head>
+<style>
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(paymentsuccess.png);
+    height: 100vh;
+    background-size: cover;paymentsuccess.png
+    background-position: center;
+}
+    .blinking{
+	animation:blinkingText 2.0s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #000}
+	49%{	color: transparent;	}
+	50%{	color: transparent;	}
+	99%{	color:transparent;	}
+	100%{	color: #000;	}
+}
+.blinking h2
+    {
+        font-style:'Montserrat',sans-serif;
+        font-size: 60px;
+        margin-top: 70px;
+        letter-spacing: 5px;
+    }
+.button
+    {
+        font-family: 'Open Sans',sans-serif;
+        font-size: 30px;
+        border: 1px solid black;
+        margin-left: 0px;
+        padding: 5px 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+#modalcontent
+    {
+        text-align: left;
+    }
+    
+</style>
+<body>
+    <header>
+    <center>
+    
+<!--
+<div class="button">
+<input type="button" value="Review Booking Details">    
+</div>
+-->
+
+
+
+
+
+
+
+<button class="button" ><a href="Booking_report.html">Review Booking Details</a></button>
+<div id="modalcontent">
+<center><button class="cbutton2"><a href="index.html">getBacktoHome</a></button></center>
+</div>
+     </center>
+ </header>
+</body>
+</html>

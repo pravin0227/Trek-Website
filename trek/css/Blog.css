@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+body{
+     background-image: url(../1.jpg);
+     background-size: cover;
+     
+}
+}
+
+ nav{
+    background-image: url(../1.jpg);
+
+    height: 14vh;
+} 
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 8px;
+}
+ul li{
+    float: left;
+    width: 150px;
+    height: 40px;
+    opacity: .8;
+    
+    text-align: center;
+    height: 5px;
+    padding-bottom: 22px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    transition: 0.6s ease-in-out;
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+    padding: 5px 16px;
+    width: 6px;
+}
+
+ul li ul li{
+display: none;
+}
+
+ul li:hover ul li{
+    
+    display: block;
+    
+    opacity: .8;
+    border: 1px solid transparent;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+    padding: 5px 10px;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.main{
+
+max-width: 1200px;
+margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title h1{
+    color: #fff;
+    font-style: oblique;
+    
+    font-family:  OCR A Std, monospace ;
+    font-size: 50px;
+}
+.aoa {
+    background-color: #ccdaecd1 !important;
+        height: 50vh;
+        margin: 2vh;
+}
+.imagecontainer{
+    height: 40vh;
+    width: 50vh;
+    margin: 2vh;
+    flex-wrap: wrap;
+}
+
+
+
+
+.centre{
+    text-align: center;
+}
+
+.des{
+    display:flex;
+    /* background-color:white; */
+    height:3vw;
+     border: 1px solid #ccc; 
+     border-radius: 8px; 
+}
+.ds{
+    flex-basis: 30%;
+    text-align: center;
+    height:2.8vw;
+}
+.ds:hover{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    transition: 0.6s ease-in-out;
+
+}
+.ds a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    transition: 0.6s ease-in-out;
+}
+
+.bck{
+    color: whitesmoke;
+    margin-top: 3vh;
+    width:15vw;
+    float:left;
+    margin-Left:2vw;
+     border: 1px solid;
+    border-radius: 4vw;
+    /* box-sizing: border-box; */
+    height:2.5vw;
+    text-align: center;
+    background-color: rgb(7, 3, 32)
+}
+.container{
+    width: 70%; 
+    margin: auto;
+    background-color: azure;
+}
+footer{
+    margin-top: 4%;
+    height:13%;
+    text-align: center;
+    color: blanchedalmond;
+    text-decoration-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    align-content: center;
+    }

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../contactus.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 8px;
+}
+ul li{
+    float: left;
+    width: 150px;
+    height: 40px;
+    opacity: .8;
+    
+    text-align: center;
+    height: 5px;
+    padding-bottom: 22px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    transition: 0.6s ease-in-out;
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+    padding: 5px 16px;
+    width: 6px;
+}
+
+ul li ul li{
+display: none;
+}
+
+ul li:hover ul li{
+    
+    display: block;
+    
+    opacity: .8;
+    border: 1px solid transparent;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+    padding: 5px 10px;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.main{
+
+max-width: 1200px;
+margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title h1{
+    color: #fff;
+    font-style: oblique;
+    
+    font-family:  OCR A Std, monospace ;
+    font-size: 50px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    width: 75%;
+    max-width: 500px;
+    background: none;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #fff;
+    font-family: "Montserrat",sans-serif; 
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+.txtb{
+    border: 1px solid #fff;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input, select, .txtb textarea{
+width: 100%;
+border: none;
+color: #fff;
+background: none;
+outline: none;
+font-size: 18px;
+margin-top: 6px; 
+}
+.btn{
+    display: inline-block;
+    background: #ddd9d8;
+    padding: 14px 0;
+    color: black;
+    text-transform:uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100% 
+}
